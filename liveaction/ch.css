@@ -1,0 +1,15 @@
+@font-face {
+font-family: "DroidKufi-Bold";
+font-style: normal;
+font-weight: 700;
+src: url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.eot?#iefix") format("embedded-opentype"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff2") format("x-woff2"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff") format("woff"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.ttf") format("truetype");
+}
+body{user-select:none;background:#000000;font-family:DroidKufi-Bold;color:#ffffff;text-align:right}
+*{margin:0}
+.info{text-align:center;background:#BB1114;color:#fff;}
+#links{text-align:center}
+.report{font-size:13px;margin-right:7px;margin-top:20px;text-align:center}
+.report a{cursor:none;color:#BB1114;text-decoration:none;transition:0.4s}
+.vjs-control{
+  background:rgba(187,17,20,0.27)!important;cursor: none!important;
+}
