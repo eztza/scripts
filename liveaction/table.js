@@ -1,7 +1,5 @@
 document.getElementById("table").innerHTML = `
-<div class="liveMatches mb20"><h3>
-  <a>أهم المباريات 2/10/2020</a></h3>
-  
+<div class="liveMatches mb20">
   <table width="100%" cellspacing="0" cellpadding="0" class="cellCenter"><tbody>
     
 
