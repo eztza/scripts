@@ -6,7 +6,7 @@ src: url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickuf
 }
 body{user-select:none;background:#000000;font-family:DroidKufi-Bold;color:#ffffff;text-align:right}
 *{margin:0}
-.info{text-align:center;background:#BB1114;color:#fff;padding:10px}
+.info{text-align:center;background:#BB1114;color:#fff;padding:5px 0}
 #links{text-align:center}
 .report{font-size:13px;margin-right:7px;margin-top:20px;text-align:center}
 .report a{cursor:none;color:#BB1114;text-decoration:none;transition:0.4s}
