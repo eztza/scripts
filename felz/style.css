@@ -14,7 +14,7 @@ a{
     float: none !important;
 }
 .top-info{
-    background: linear-gradient(0deg, RGBA(24,33,40,1), RGBA(24,33,40,0.7)), url(../assets/poster.jpg);
+    background: linear-gradient(0deg, RGBA(24,33,40,1), RGBA(24,33,40,0.7)), url(https://k.top4top.io/p_1842by4k90.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -165,7 +165,7 @@ body{
     background: #182128;
 }
 .top-info{
-    background: linear-gradient(0deg, RGBA(24,33,40,1), RGBA(24,33,40,0.7)), url(../assets/poster.jpg);
+    background: linear-gradient(0deg, RGBA(24,33,40,1), RGBA(24,33,40,0.7)), url(https://k.top4top.io/p_1842by4k90.jpg);
     background-size: cover;
     background-position: center;
     padding: 20px;
