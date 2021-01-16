@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #f0f0f0 !important;
+    background: #182128 !important;
+    direction: rtl !important;
+    font-family: 'Droid Arabic Kufi' !important;
+    user-select: none;
+    text-align: unset !important;
+}
+a{
+    float: none !important;
+}
+.top-info{
+    background: linear-gradient(0deg, RGBA(24,33,40,1), RGBA(24,33,40,0.7)), url(../assets/poster.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+}
+.poster{
+    position: relative;
+}
+.quality{
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    background: #262E39;
+    padding: 0 5px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.poster img{
+    height: 180px;
+    width: 125px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.anime-name{
+    line-height: 2;
+    color: #d2d2d2;
+}
+#name{
+    color: #fff;
+    font-size: 1.1em;
+}
+.rating{
+    padding: 20px;
+}
+.rating img{
+    width: 50px;
+    margin-bottom: 5px;
+}
+.mal{
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+}
+#votes{
+    font-size: 0.8em;
+    color: #ccc;
+}
+.main-info{
+    background: #262E39;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.story{
+    max-height: 150px ;
+    overflow-x: hidden;
+}
+.labels{
+    display: flex;
+    font-size: 13px;
+    padding: 10px 0px;
+}
+.labels p{
+    border-radius: 20px;
+    background: #3A4657;
+    margin-left: 5px;
+    padding:0 10px;
+}
+.more-info{
+    line-height:2;
+    display:flex;
+}
+.more-info p{
+    color: #ccc;
+}
+#table-1{
+    margin-left: 50px;
+}
+.video{
+    text-align: center;
+    padding: 20px;
+}
+.video iframe{
+    border: none;
+    background: #262E39;
+    border-radius: 10px;
+}
+
+.tab {
+  padding: 0 20px;
+  overflow: hidden;
+  background: #262E39;
+}
+
+.tab p {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 5px 5px 5px;
+  transition: 0.3s;
+  margin: 0 10px;
+}
+
+.tab p.active {
+  border-bottom: solid 5px #ccc;
+  border-radius: 3px;
+}
+
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border: none;
+}
+.season li{
+    padding:5px 15px;
+    margin: 10px 20px;
+    text-align: center;
+    border-radius: 3px;
+    background: #262E39;
+    list-style: none !important;
+}
+
+#server{
+    display: flex;
+    justify-content: space-between;
+}
+.atmo a{
+    margin: 0 5px 0 0;
+    background: #182128;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 0 5px;
+    text-decoration: none !important;
+}
+.atmo .fa{
+    margin: 0 10px;
+}
+/*English Version
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #f0f0f0;
+    background: #182128;
+}
+.top-info{
+    background: linear-gradient(0deg, RGBA(24,33,40,1), RGBA(24,33,40,0.7)), url(../assets/poster.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+}
+.poster{
+    position: relative;
+}
+.quality{
+    margin: 5px;
+    position: absolute;
+    top: 0;
+    background: #262E39;
+    padding: 0 5px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.poster img{
+    height: 180px;
+    width: 125px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.anime-name{
+    line-height: 2;
+    color: #d2d2d2;
+}
+#name{
+    color: #fff;
+    font-size: 1.1em;
+}
+.rating{
+    padding: 20px;
+}
+.rating img{
+    width: 50px;
+    margin-bottom: 5px;
+}
+.mal{
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+}
+#votes{
+    font-size: 0.8em;
+    color: #ccc;
+}
+.main-info{
+    background: #262E39;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.story{
+    max-height: 150px ;
+    overflow-x: hidden;
+}
+.labels{
+    display: flex;
+    font-size: 13px;
+    padding: 10px 0px;
+}
+.labels p{
+    border-radius: 20px;
+    background: #3A4657;
+    padding: 10px;
+    margin-right: 5px;
+}
+.more-info{
+    line-height:2;
+    display:flex;
+}
+.more-info p{
+    color: #ccc;
+}
+#table-1{
+    margin-right: 50px;
+}
+.video{
+    text-align: center;
+    padding: 20px;
+}
+.video iframe{
+    border: none;
+    background: #262E39;
+    border-radius: 10px;
+}
+.tab {
+  padding: 0 20px;
+  overflow: hidden;
+  background: #262E39;
+}
+
+.tab p {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab p.active {
+  border-bottom: solid 5px #ccc;
+  border-radius: 3px;
+}
+
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border: none;
+}
+
+End English Version*/
