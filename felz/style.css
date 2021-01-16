@@ -13,6 +13,9 @@ body{
 a{
     float: none !important;
 }
+img{
+   pointer-events:none !important;
+}
 .top-info{
     background-size: cover;
     background-position: center;
