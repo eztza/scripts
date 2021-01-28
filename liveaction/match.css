@@ -1,127 +1,125 @@
+/*
+-------------------------------------
+Simple soccer match table for Results
+& Match dates
+-------------
+*/
 @font-face {
 font-family: "DroidKufi-Bold";
 font-style: normal;
 font-weight: 700;
 src: url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.eot?#iefix") format("embedded-opentype"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff2") format("x-woff2"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.woff") format("woff"), url("//themes.googleusercontent.com/static/fonts/earlyaccess/droidarabickufi/v3/DroidKufi-Bold.ttf") format("truetype");
 }
-*{margin:0}
-body{background:#222;color:#90A4AD!important;font-family:DroidKufi-Bold;user-select:none;}
-.liveMatches {
-    text-align:center;
+*{
+    margin: 0;
+    padding: 0;
 }
-.mb20 {
-    margin-bottom: 20px;
+body{
+    background: #222;
+    user-select: none;
+    color: #90A4AD;
+    font-size: 14px;
+    font-family:DroidKufi-Bold;
 }
-
-
-h2, h3 {
-    color: #fff;
-    height: 36px;
-    line-height: 35px;
-    padding: 0 10px;
-    background-color: #BB1114;
-      
-}
-
-
-
-h2, h3, th {
-    font-size: 1.1em;
-}
-
-.bg_dark td, .white, h1.title a, h2 a, h3 a {
-    color: #fff;
-  text-decoration: blink;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%!important;
-}
-.liveMatches tr {
-   background:#fff;
-}
-
-.liveMatches td {
-    vertical-align: middle;
-    font-weight: 700;
-}
-
-.cellCenter td, .mainNav a {
-    text-align: center;
-}
-
-.liveTeam {
-    width: 100px;
-}
-
-select, td {
-    vertical-align: middle;
-    padding: 3px 2px;
-}
-
-.liveMatches img {
-    max-height: 2em;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.liveTeam div {
-    color: #5a5a5a;
-}
-
-.liveMatches td {
-    vertical-align: middle;
-    font-weight: 700;
-}
-
-cellCenter td, .mainNav a {
-    text-align: center;
-}
-
-
-
-.liveDet div {
-    width: 80px;
-    padding: 3px 0;
-    margin: 0 auto;
-    color: #fff;
-    border-radius:5px;
-    max-width: 100%;
-    text-align: center;
-}
-
-.liveDraw, .liveVersus {
-    background-color: #BB1114;
-}
-
-.liveDraw, .now{
-  background-color: #E91E63;
-}
-
-.liveDraw, .now1{
-    background-color: #4CAF50;
-}
-
-.liveDraw, .now2{
-    background-color: #3F51B5;
-}
-.liveMatches td {
-    vertical-align: middle;
-    font-weight: 700;
-}
-
-.liveVersus span,{
-    height: 14px;
-    margin-left: 3px;
-    vertical-align: middle;
-    width: 15px;
-    background-position: 0 -144px;
-}
-
-img {
+img{
     pointer-events: none;
 }
+.main-table{
+    background: #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.table{
+    justify-content: space-between;
+    display: flex;
+}
+.table img{
+    height: 70px;
+    width: 70px;
+}
+.table{
+    text-align: center;
+    line-height: 3;
+}
+.team{
+    width: 35%;
+}
+.header{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 19px;
+    background: #333;
+    margin: 10px;
+    border-radius: 5px;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    background: #333;
+    margin: 10px;
+    border-radius: 5px;
+}
+#numb{
+    padding: 0 5px;
+    margin: 0;
+    margin-top: 50%;
+    background: #444;
+    font-size: 17px;
+    border-radius: 5px;
+    line-height: 2 !important;
+}
+.info{
+    background: #444;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.ch{
+    width: 39.9%;
+    text-align: center;
+}
+.com{
+    width: 39.9%;
+    text-align: center;
+}
+.time{
+    width:39.9%;
+    text-align: center;
+}
+.teams{
+    padding: 20px 0;
+    background: #333;
+    margin: 10px;
+    border-radius: 5px;
+}
+.teams img{
+    width: 80px ;
+}
+.scroller{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+#tm{
+    position: relative;
+    text-align: center;
+    margin: 0 10px;
+    max-width: 120px;
+}
+.hot{
+    position: absolute;
+    padding: 0 5px;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 2px;
+}
+
+/* https://github.com/eztza */
+
+/* if you like it give me a star pn Github (: */
