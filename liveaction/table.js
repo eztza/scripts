@@ -1,59 +1,4 @@
 document.getElementById("table").innerHTML = `
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Simple Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <!--
-    
-    ///////////////////////////////////////////////
-    [       Static Page for Soccer Matches        ]
-    ///////////////////////////////////////////////
-    [            by Ezat Zaino on Github          ]
-    ///////////////////////////////////////////////
-    [       Make it dynamic with : Php , Js       ]
-    ///////////////////////////////////////////////
-    
-    -->
-    
-    <!-- Next Update i'll Add dark & light Mode -->
-    
-    <!-- [Title] -->
-    
-    <h1 class="header">مباريات اليوم</h1>
-    
-    <!-- [Scroll Teams logos]
-    
-    <div class="teams">
-        <div class="scroller">
-            <div id="tm">
-                <img src="/logo.png" alt="Team Logo" />
-                <p>Team Name FC 1</p>
-                <div class="hot">Hot Team!</div>
-            </div>
-            <div id="tm">
-                <img src="/logo.png" alt="Team Logo" />
-                <p>Team Name FC 2</p>
-            </div>
-            <div id="tm">
-                <img src="/logo.png" alt="Team Logo" />
-                <p>Team Name FC 3</p>
-            </div>
-            <div id="tm">
-                <img src="/logo.png" alt="Team Logo" />
-                <p>Team Name FC 4</p>
-            </div>
-        </div>
-    </div>
-    
-    -->
-    
     <!-- [ Team One Table ] -->
     
     <div class="main-table">
@@ -127,26 +72,4 @@ document.getElementById("table").innerHTML = `
             </div>
         </div>
     </div>
-    
-    <!-- Footer [Update Date] 
-    
-    <p class="footer">28/1/2021</p>
-    
-    -->
-    
-    <!-- Delete this part of code from here -->
-    
-    <!-- Dont need it
-    
-    <script>
-        alert("Check last updates on https://github.com/eztza")
-        alert("Welcome ! on simple soccer match table , i make it just for fun Enjoy (:")
-    </script>
-    
-   -->
-    
-    <!-- to here -->
-    
-</body>
-</html>
 `
